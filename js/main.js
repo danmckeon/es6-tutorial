@@ -27,7 +27,7 @@ let calculateAmortization = (principal, years, rate) => {
     return {monthlyPayment, monthlyRate, amortization};
 }
 
-document.getElementById('calcBtn').addEventListener('click', function () {
+document.getElementById('calcBtn').addEventListener('click', () => {
     let principal = document.getElementById("principal").value;
     let years = document.getElementById("years").value;
     let rate = document.getElementById("rate").value;
